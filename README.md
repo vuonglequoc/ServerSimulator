@@ -5,8 +5,8 @@ MuServer
 
 The MuServerBK project is developed from the MuServerEx project.
 
-Mu Server BK has been tested under the following systems on 32bit and 64bit installations but should also compile 
-and run under any system where .NET 3.5 are available. By default Mu Server BK dont support native x64 compilations.
+MuServerBK has been tested under the following systems on 32bit and 64bit installations but should also compile and 
+run under any system where .NET 3.5 are available. By default MuServerBK dont support native x64 compilations.
 
     * Windows XP SP3 (32bit)
     * Windows 8 (64bit)
