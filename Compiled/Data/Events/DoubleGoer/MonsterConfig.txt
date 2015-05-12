@@ -1,0 +1,391 @@
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0	
+1	19
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	20	3750	3750	163	176	149	//Furious Slaughterer
+530	18	3000	3000	143	156	131	//Slaughterer
+531	19	2250	2250	111	117	108	//Contaminated Ice Walker
+532	16	1500	1500	98	104	99	//Contaminated Larva
+533	15	900	900	104	111	81	//Doppleganger
+534	14	750	750	85	91	54	//Doppelganger Elf
+535	14	750	750	85	91	54	//Doppelganger Knight
+536	14	750	750	85	91	54	//Doppelganger Wizard
+537	14	750	750	85	91	54	//Doppelganger Gladiator
+538	17	1350	1350	111	117	99	//Doppelganger Lord
+539	14	750	750	85	91	54	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+20	29
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	24	4250	4250	175	189	158	//Furious Slaughterer
+530	22	3400	3400	154	168	139	//Slaughterer
+531	23	2550	2550	119	126	114	//Contaminated Ice Walker
+532	19	1700	1700	105	112	105	//Contaminated Larva
+533	18	1020	1020	112	119	86	//Doppelganger
+534	17	850	850	91	98	57	//Doppelganger Elf
+535	17	850	850	91	98	57	//Doppelganger Knight
+536	17	850	850	91	98	57	//Doppelganger Wizard
+537	17	850	850	91	98	57	//Doppelganger Gladiator
+538	20	1530	1530	119	126	105	//Doppelganger Lord
+539	17	850	850	91	98	57	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+30	39
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	32	5000	5000	188	203	166	//Furious Slaughterer
+530	29	4000	4000	165	180	146	//Slaughterer
+531	30	3000	3000	128	135	120	//Contaminated Ice Walker
+532	26	2000	2000	113	120	110	//Contaminated Larva
+533	24	1200	1200	120	128	90	//Doppelganger
+534	22	1000	1000	98	105	60	//Doppelganger Elf
+535	22	1000	1000	98	105	60	//Doppelganger Knight
+536	22	1000	1000	98	105	60	//Doppelganger Wizard
+537	22	1000	1000	98	105	60	//Doppelganger Gladiator
+538	27	1800	1800	128	135	110	//Doppelganger Lord
+539	22	1000	1000	98	105	60	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+40	49
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	38	5750	5750	200	216	174	//Furious Slaughterer
+530	34	4600	4600	176	192	153	//Slaughterer
+531	36	3450	3450	136	144	126	//Contaminated Ice Walker
+532	30	2300	2300	120	128	116	//Contaminated Larva
+533	29	1380	1380	128	136	95	//Doppelganger
+534	27	1150	1150	104	112	63	//Doppelganger Elf
+535	27	1150	1150	104	112	63	//Doppelganger Knight
+536	27	1150	1150	104	112	63	//Doppelganger Wizard
+537	27	1150	1150	104	112	63	//Doppelganger Gladiator
+538	32	2070	2070	136	144	116	//Doppelganger Lord
+539	27	1150	1150	104	112	63	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+50	59
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	44	6500	6500	213	230	183	//Furious Slaughterer
+530	40	5200	5200	187	204	161	//Slaughterer
+531	42	3900	3900	145	153	132	//Contaminated Ice Walker
+532	35	2600	2600	129	136	121	//Contaminated Larva
+533	33	1560	1560	136	145	99	//Doppelganger
+534	31	1300	1300	111	119	66	//Doppelganger Elf
+535	31	1300	1300	111	119	66	//Doppelganger Knight
+536	31	1300	1300	111	119	66	//Doppelganger Wizard
+537	31	1300	1300	111	119	66	//Doppelganger Gladiator
+538	37	2340	2340	145	153	121	//Doppelganger Lord
+539	31	1300	1300	111	119	66	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+60	69
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	50	7250	7250	225	243	191	//Furious Slaughterer
+530	45	5800	5800	198	216	168	//Slaughterer
+531	48	4350	4350	153	162	138	//Contaminated Ice Walker
+532	40	2900	2900	135	144	127	//Contaminated Larva
+533	38	1740	1740	144	153	104	//Doppelganger
+534	35	1450	1450	117	126	69	//Doppelganger Elf
+535	35	1450	1450	117	126	69	//Doppelganger Knight
+536	35	1450	1450	117	126	69	//Doppelganger Wizard
+537	35	1450	1450	117	126	69	//Doppelganger Gladiator
+538	43	2610	2610	153	162	127	//Doppelganger Lord
+539	35	1450	1450	117	126	69	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+70	79
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	54	8000	8000	238	257	199	//Furious Slaughterer
+530	49	6400	6400	209	228	175	//Slaughterer
+531	51	4800	4800	162	171	144	//Contaminated Ice Walker
+532	43	3200	3200	143	152	132	//Contaminated Larva
+533	41	1920	1920	152	162	108	//Doppelganger
+534	38	1600	1600	124	133	72	//Doppelganger Elf
+535	38	1600	1600	124	133	72	//Doppelganger Knight
+536	38	1600	1600	124	133	72	//Doppelganger Wizard
+537	38	1600	1600	124	133	72	//Doppelganger Gladiator
+538	46	2880	2880	162	171	132	//Doppelganger Lord
+539	38	1600	1600	124	133	72	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+80	89
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	60	8750	8750	250	270	208	//Furious Slaughterer
+530	54	7000	7000	220	240	183	//Slaughterer
+531	57	5250	5250	170	180	150	//Contaminated Ice Walker
+532	48	3500	3500	150	160	138	//Contaminated Larva
+533	45	2100	2100	160	170	113	//Doppelganger
+534	42	1750	1750	130	140	75	//Doppelganger Elf
+535	42	1750	1750	130	140	75	//Doppelganger Knight
+536	42	1750	1750	130	140	75	//Doppelganger Wizard
+537	42	1750	1750	130	140	75	//Doppelganger Gladiator
+538	51	3150	3150	170	180	138	//Doppelganger Lord
+539	42	1750	1750	130	140	75	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+90	99
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	66	11250	11250	275	297	291	//Furious Slaughterer
+530	59	9000	9000	242	264	256	//Slaughterer
+531	93	6750	6750	187	198	210	//Contaminated Ice Walker
+532	53	4500	4500	165	176	193	//Contaminated Larva
+533	50	2700	2700	176	187	158	//Doppelganger
+534	46	2250	2250	143	154	105	//Doppelganger Elf
+535	46	2250	2250	143	154	105	//Doppelganger Knight
+536	46	2250	2250	143	154	105	//Doppelganger Wizard
+537	46	2250	2250	143	154	105	//Doppelganger Gladiator
+538	56	4050	4050	187	198	193	//Doppelganger Lord
+539	46	2250	2250	143	154	105	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+100	109
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	72	13750	13750	288	311	299	//Furious Slaughterer
+530	65	11000	11000	253	276	263	//Slaughterer
+531	68	8250	8250	196	207	216	//Contaminated Ice Walker
+532	58	5500	5500	173	184	198	//Contaminated Larva
+533	54	3300	3300	184	196	162	//Doppelganger
+534	50	2750	2750	150	161	108	//Doppelganger Elf
+535	50	2750	2750	150	161	108	//Doppelganger Knight
+536	50	2750	2750	150	161	108	//Doppelganger Wizard
+537	50	2750	2750	150	161	108	//Doppelganger Gladiator
+538	61	4950	4950	196	207	198	//Doppelganger Lord
+539	50	2750	2750	150	161	108	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+110	119
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	73	16250	16250	300	324	307	//Furious Slaughterer
+530	66	13000	13000	264	288	270	//Slaughterer
+531	69	9750	9750	204	216	222	//Contaminated Ice Walker
+532	58	6500	6500	180	192	204	//Contaminated Larva
+533	55	3900	3900	192	204	167	//Doppelganger
+534	51	3250	3250	156	168	111	//Doppelganger Elf
+535	51	3250	3250	156	168	111	//Doppelganger Knight
+536	51	3250	3250	156	168	111	//Doppelganger Wizard
+537	51	3250	3250	156	168	111	//Doppelganger Gladiator
+538	62	5850	5850	204	216	204	//Doppelganger Lord
+539	51	3250	3250	156	168	111	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+120	129
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	74	18750	18750	313	338	315	//Furious Slaughterer
+530	66	15000	15000	275	300	277	//Slaughterer
+531	70	11250	11250	213	225	228	//Contaminated Ice Walker
+532	59	7500	7500	188	200	209	//Contaminated Larva
+533	55	4500	4500	200	213	171	//Doppelganger
+534	52	3750	3750	163	175	114	//Doppelganger Elf
+535	52	3750	3750	163	175	114	//Doppelganger Knight
+536	52	3750	3750	163	175	114	//Doppelganger Wizard
+537	52	3750	3750	163	175	114	//Doppelganger Gladiator
+538	63	6750	6750	213	225	209	//Doppelganger Lord
+539	52	3750	3750	163	175	114	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+130	139
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	75	21250	21250	325	351	324	//Furious Slaughterer
+530	67	17000	17000	286	312	285	//Slaughterer
+531	71	12750	12750	221	234	234	//Contaminated Ice Walker
+532	60	8500	8500	195	208	215	//Contaminated Larva
+533	56	5100	5100	208	221	176	//Doppelganger
+534	52	4250	4250	169	182	117	//Doppelganger Elf
+535	52	4250	4250	169	182	117	//Doppelganger Knight
+536	52	4250	4250	169	182	117	//Doppelganger Wizard
+537	52	4250	4250	169	182	117	//Doppelganger Gladiator
+538	63	7650	7650	221	234	215	//Doppelganger Lord
+539	52	4250	4250	169	182	117	//Doppelganger Summoner
+end
+
+//Level of Player
+//===========
+//Min	Max
+//Level	Level
+//===========
+0
+140	149
+end
+
+//Settings of Mobs
+//=====================================================
+//Mob	Mob	Mob	Mob	Min	Max	Defense
+//Numb	Level	Life	Mana	Damadge	Damadge
+//=====================================================
+1
+529	75	23750	23750	350	378	340	//Furious Slaughterer
+530	68	19000	19000	308	336	299	//Slaughterer
+531	72	14250	14250	238	252	246	//Contaminated Ice Walker
+532	60	9500	9500	210	224	226	//Contaminated Larva
+533	57	5700	5700	224	238	285	//Doppelganger
+534	53	4750	4750	182	196	123	//Doppelganger Elf
+535	53	4750	4750	182	196	123	//Doppelganger Knight
+536	53	4750	4750	182	196	123	//Doppelganger Wizard
+537	53	4750	4750	182	196	123	//Doppelganger Gladiator
+538	64	8550	8550	238	252	226	//Doppelganger Lord
+539	53	4750	4750	182	196	123	//Doppelganger Summoner
+end

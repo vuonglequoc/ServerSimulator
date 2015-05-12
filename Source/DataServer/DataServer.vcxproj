@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5E6D46CD-E6EE-4E96-B69C-964C3E9412EE}</ProjectGuid>
+    <RootNamespace>DataServer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Colors.h" />
+    <ClInclude Include="Header Files\Configs.h" />
+    <ClInclude Include="Header Files\Database.h" />
+    <ClInclude Include="Header Files\DataProtocol.h" />
+    <ClInclude Include="Header Files\DataSrvManager.h" />
+    <ClInclude Include="Header Files\Defines.h" />
+    <ClInclude Include="Header Files\DSProtocol.h" />
+    <ClInclude Include="Header Files\Functions.h" />
+    <ClInclude Include="Header Files\GPackets.h" />
+    <ClInclude Include="Header Files\IOCP.h" />
+    <ClInclude Include="Header Files\JoinProtocol.h" />
+    <ClInclude Include="Header Files\JoinSrvManager.h" />
+    <ClInclude Include="Header Files\JSProtocol.h" />
+    <ClInclude Include="Header Files\LogProc.h" />
+    <ClInclude Include="Header Files\Main.h" />
+    <ClInclude Include="Header Files\MD5.h" />
+    <ClInclude Include="Header Files\MD5_KEYVAL.H" />
+    <ClInclude Include="Header Files\ReadFileManager.h" />
+    <ClInclude Include="Header Files\Resource.h" />
+    <ClInclude Include="Resource Files\resource.h" />
+    <ClInclude Include="Header Files\StdAfx.h" />
+    <ClInclude Include="Header Files\Structure.h" />
+    <ClInclude Include="Header Files\TSync.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource Files\DataServer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource Files\SoftIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\Configs.cpp" />
+    <ClCompile Include="Source Files\Database.cpp" />
+    <ClCompile Include="Source Files\DataSrvManager.cpp" />
+    <ClCompile Include="Source Files\DSProtocol.cpp" />
+    <ClCompile Include="Source Files\Functions.cpp" />
+    <ClCompile Include="Source Files\IOCP.cpp" />
+    <ClCompile Include="Source Files\JoinSrvManager.cpp" />
+    <ClCompile Include="Source Files\JSProtocol.cpp" />
+    <ClCompile Include="Source Files\LogProc.cpp" />
+    <ClCompile Include="Source Files\Main.cpp" />
+    <ClCompile Include="Source Files\MD5.cpp" />
+    <ClCompile Include="Source Files\ReadFileManager.cpp" />
+    <ClCompile Include="Source Files\StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataServer.conf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

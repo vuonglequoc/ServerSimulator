@@ -1,0 +1,40 @@
+DS:
+Connected[0] ::	JoinServer
+Connected[1] ::	DataServer
+JoinServerPort	= 55970
+DataServerPort	= 55960
+
+eDS:
+Connected[2] ::	DevilSquare Event
+Connected[3] ::	Is DevilSquare Event
+Connected[4] ::	Event ChipServer
+Connected[5] ::	Is Event ChipServer
+
+ExDataServerPort 	= 55906
+EventServerPort 	= 44456
+RankingServerPort 	= 44455
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+void GJSProtocol::JoinServerLogin(JOIN_SERVER_RESULT * lpMsg)	
+{
+	if ( lpMsg->Result != 1 )
+	{
+		CLog.Error("JoinServer Manager Couldn't Add Server :: Result (%d)", lpMsg->Result);
+		return;
+	}
+
+
+void JSProtocolCore(BYTE HeadCode, LPBYTE aRecv, int iSize)
+{
+	switch ( HeadCode )
+	{
+		case JS_PROTO_CORE_SRV_LOGIN:
+		{
+			JSProto.JoinServerLogin((JOIN_SERVER_RESULT *)aRecv);				// Done & Revised By WolF	[24/12/2011]
+		} break;
+
+bool GMJoinServerConnect(LPSTR ConnectServer, DWORD wMsg)
+{
+	wsJServerCli.SetProtocolCore(JSProtocolCore);

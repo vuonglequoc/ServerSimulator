@@ -1,0 +1,33 @@
+//Event Type:
+//=========================
+//0 = Red Dragon Invasion
+//1 = Skeleton King Invasion
+//2 = Golden Invasion
+//3 = White Wizard Invasion
+//4 = Raklion
+//5 = Santa Invasion
+//6 = Happy Hour
+//7 = Blue Event
+//8 = Happy Chaos
+//9 = Happy Jewel
+//10 = Happy Pouch
+//13 = Summer Event
+//14 = Moss Merchant
+//=========================
+
+//Hour Config
+//============================================
+//Event	Month	Day	DayOf	Hour	Minute
+//Type		Month	Weel
+//============================================
+0	-1	-1	-1	20	16
+1	-1	-1	-1	21	38
+2	-1	-1	-1	17	53
+3	-1	-1	-1	21	40
+4	-1	-1	-1	02	34
+5	-1	-1	-1	02	53
+6	-1	-1	-1	03	55
+7	-1	-1	-1	01	50
+10	-1	-1	-1	13	59
+13	-1	-1	-1	23	00
+14	-1	-1	-1	16	04

@@ -1,0 +1,21 @@
+//Chaos Card Mix
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+0
+13	37	0	0	0	0	0	0	0	255	255	255	255	255	//Horn of Fenrir
+13	5	0	0	0	0	0	0	0	255	255	255	255	255	//Dark Raven
+13	4	0	0	0	0	0	0	0	255	255	255	255	255	//Dark Horse
+12	30	0	0	0	0	0	0	0	255	255	255	255	255	//Bundled Jewel of Bless
+12	31	0	0	0	0	0	0	0	255	255	255	255	255	//Bundled Jewel of Soul
+12	15	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Chaos
+14	14	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Soul
+14	22	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Creation
+14	41	0	0	0	0	0	0	0	255	255	255	255	255	//Gemstone
+14	43	0	0	0	0	0	0	0	255	255	255	255	255	//Lower Refining Stone
+14	44	0	0	0	0	0	0	0	255	255	255	255	255	//Higer Refining Stone
+14	13	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Bless
+14	16	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Life
+14	42	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Harmony
+end

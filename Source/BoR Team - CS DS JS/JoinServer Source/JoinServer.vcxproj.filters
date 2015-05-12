@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="User">
+      <UniqueIdentifier>{c0407b7e-d288-4da8-9497-cd9da9739758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ff645f11-a1fc-4ad5-b2b7-b1315b00cd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{7938bb99-5153-4828-988d-8840a355ad77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{043015da-d122-46f0-a9a1-181dbc05149e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{74ab61f4-228f-46e0-9f66-42c368030f70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\TDbManager.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TServerManager.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GProtocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GEntryPoint.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TTimerManger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\TDbManager.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TServerManager.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GInclude.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TTimerManger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sources\Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SProtocolFromGS.txt" />
+  </ItemGroup>
+</Project>

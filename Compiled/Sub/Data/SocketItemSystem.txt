@@ -1,0 +1,55 @@
+//====================================================================================================================
+//Numb	Id	Type	Option						Option	Socket	Socket	Socket	Socket	Socket
+//			Name						Type	1	2	3	4	5
+//====================================================================================================================
+0
+0	1	0	"Increases Attack & Wizardry"			3	20	400	400	400	400
+1	1	1	"Increases Attack Speed"			1	7	1	1	1	1
+2	1	2	"Increases Maximum Attack & Wizardry"		1	30	1	1	1	1
+3	1	3	"Increases Minimum Attack & Wizardry"		1	20	1	1	1	1
+4	1	4	"Increases Attack & Wizardry"			1	20	1	1	1	1
+5	1	5	"Reduces AG Slightly"				2	40	1	1	1	1
+10	2	0	"Increases Defensibility Accuracy"		2	10	1	1	1	1
+11	2	1	"Increases Defensibility"			1	30	1	1	1	1
+12	2	2	"Increases Shield Protection"			2	7	1	1	1	1
+13	2	3	"Reduces Damage"				2	4	1	1	1	1
+14	2	4	"Reflects Damage"				2	5	1	1	1	1
+16	3	0	"Increases Health From a Mob Kill"		4	8	49	50	51	52
+17	3	1	"Increases Mana From a Mob Kill"		5	8	49	50	51	52
+18	3	2	"Increases Skill Attack"			1	37	1	1	1	1
+19	3	3	"Increases Attack Accuracy"			1	25	1	1	1	1
+20	3	4	"Item Strenghthener"				2	30	1	1	1	1
+21	4	0	"Increases Automatic Health Recovery"		1	8	1	1	1	1
+22	4	1	"Increases Maximum Health"			2	4	1	1	1	1
+23	4	2	"Increases Maximum Mana"			2	4	1	1	1	1
+24	4	3	"Increases Automatic Mana Recovery"		1	7	1	1	1	1
+25	4	4	"Increases Maximum AG"				1	25	1	1	1	1
+26	4	5	"Increases AG Value"				1	3	1	1	1	1
+29	5	0	"Increases Excellent Damage"			1	15	1	1	1	1
+30	5	1	"Increases Excellent Damage Rate"		2	10	1	1	1	1
+31	5	2	"Increases Critical Damage"			1	30	1	1	1	1
+32	5	3	"Increases Critical Damage Rate"		2	8	1	1	1	1
+36	6	2	"Increases Health"				1	30	1	1	1	1
+end
+
+//====================================================================================================================================
+//Numb	Id	Type	Option						Option	Value	Rate	Socket	Socket	Socket	Socket	Socket
+//			Name						Type		Mix	1	2	3	4	5
+//====================================================================================================================================
+1
+0	0	4	"Increases Attack Power"			1	11	30	1	5	3	0	0
+1	0	4	"Increases Skill Attack"			1	11	30	5	3	1	0	0
+2	5	5	"Increases Attack & Wizardry"			1	5	30	1	5	3	0	0
+3	5	5	"Increases Skill Attack"			1	11	30	5	3	1	0	0
+4	6	12	"Increases Defensibility"			1	24	30	2	6	4	0	0
+5	6	12	"Increases Maximum Health"			1	29	30	6	4	2	0	0
+end
+
+//=======================================================================================================================================
+//Numb	Id	Type	Option						Option	Value	Rate	Socket	Socket	Socket	Socket	Socket	-
+//			Name						Type		Mix	1	2	3	4	5
+//=======================================================================================================================================
+2
+0	0		"Increases Double Damage Rate"			2	3	100	1	1	1	1	1	1
+1	0		"Reduces Opponents Defensibility"		2	1	100	1	3	1	3	1	2
+end

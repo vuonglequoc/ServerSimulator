@@ -1,0 +1,60 @@
+//regras:
+// para ganhar: 
+// - 7 pontos
+// - 2 pontos pra cima da outra equipe
+// - mesma pontuação = 2 equipes ganham
+// fracasso:
+// - menos de 2 pontos
+
+//horarios
+//hora, min, sec(nao usado)
+0
+1	0	0
+5	0	0
+9	0	0
+13	0	0
+17	0	0
+21	0	0
+end
+
+//gates
+//templo, levelmin, levelmax, price
+1
+0	220	270
+1	271	320
+2	231	350
+3	351	380
+4	381	399
+5	400	400
+end
+
+//rewards
+//templo, type, indice, level
+2
+0	12	15	0
+1	12	15	0
+2	12	15	0
+3	12	15	0
+4	12	15	0
+5	12	15	0
+end
+
+//killpoints
+//tipos: 0 -> monstro / 1 = personagem
+//tipo, pontos
+3
+0	2
+1	5
+2       10
+end
+
+//compensasões
+//templo, comp, score
+4
+0	300000		50000
+1	340000		60000
+2	380000		70000
+3	420000		80000
+4	460000		90000
+5	500000		100000
+end

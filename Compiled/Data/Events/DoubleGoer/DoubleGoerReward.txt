@@ -1,0 +1,21 @@
+//Interim Reward Chest
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+0
+12	15	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Chaos
+14	13	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Bless
+14	14	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Soul
+end
+
+//Final Reward Chest
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+1
+12	15	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Chaos
+14	13	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Bless
+14	14	0	0	0	0	0	0	0	255	255	255	255	255	//Jewel of Soul
+end

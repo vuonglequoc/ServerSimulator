@@ -1,0 +1,143 @@
+// State:	State Condition of Event Start
+// Condition:	Condition End ( 0 - no condition / 1 - time )
+// Value:	Time Value
+
+//=========================================================================
+//   [State]  [Cond]  [Value]
+//=========================================================================
+0
+	0	0	0	// None
+	1	0	0	// Battle Standby
+	2	0	0	// Battle Of Maya
+	3	0	0	// Battle Of NightMare
+	4	0	0	// Tower Of Refinement
+	5	1	0	// End
+end
+
+//=========================================================================
+// Preparation for the Battle of Maya
+// When the GS is loaded, 10 minutes after the event opened.
+// Then you can enter using CoreGate.
+// We need the MoonStone Ring in the ring slot and wings.
+//=========================================================================
+//[State] [Condition] [Value]
+1
+	0	0	0	// None
+	1	1	200	// Time in seconds to start the Battle
+	2	1	60	// Time in seconds of the message to enter the Tower of Refinement
+	3	0	0	// End
+end
+
+//=========================================================================
+// Battle of Maya Timer
+// Here is the time of the battle of Maya. There are three stages of the battle.
+// 900 seconds corresponds to 15 minutes and 1,200 within 20 minutes
+//=========================================================================
+//[State] [Condition] [Value]
+2
+	0	1	900	// First Battle Scene
+	1	1	900	// Second Battle Scene
+	2	1	1200	// Third Battle Scene
+end
+
+//=========================================================================
+// Battle of Maya Cycle¸
+//=========================================================================
+//[State] [Condition] [Value]
+3
+	0	0	0	// None
+
+	// First Cycle
+	1	1	60	// Stand By
+	2	1	15	// Notify
+	3	0	0	// Start
+	4	0	0	// Maya
+	5	1	5	// End Maya
+	6	1	3	// End Cycle
+
+	// Second Cycle
+	7	1	60	// Stand By
+	8	0	0	// Start
+	9	0	0	// Maya
+	10	1	5	// End Maya
+	11	1	3	// End Cycle
+
+	// Third Cycle
+	12	1	60	// Stand By
+	13	0	0	// Start
+	14	0	0	// Maya
+	15	1	5	// End Maya
+	16	1	10	// End Cycle
+
+	17	1	3	// End
+	18	0	0	// End Cycle
+end
+
+//============================================================
+//                         AI Change
+//============================================================
+4
+	3
+	60
+	60
+	900
+end
+
+//============================================================
+//                      AI Group Number
+//============================================================
+5
+	20		// Maya Left Hand
+	21		// Maya Right Hand
+	22		// Maya Hands
+end
+
+//============================================================
+//           Ice Rate 1/10000 (Ice Storm Maya Skill)
+//============================================================
+6
+	60
+end
+
+//=========================================================================
+// (Nightmare cycle)¸
+//=========================================================================
+//[State] [Condition] [Value]
+7
+	0	0	0	// None
+	1	1	5	// Idle
+	2	1	10	// Notify
+	3	1	1200	// Start
+	4	1	5	// End
+	5	0	0	// End Cycle
+end
+
+
+//============================================================
+//                      AI Group Number
+//============================================================-
+8
+	23
+end
+
+
+//============================
+//   [State]  [Cond]  [Value]
+//============================
+9
+	0	0	0	// None
+	1	1	82500	// Revitalization
+	2	1	300	// Notify
+	3	1	2220	// Close
+	4	1	180	// Notify
+	5	1	5	// End
+end
+
+
+//============================================================
+//                Battle Unit Position Check
+//============================================================
+// [CheckValue]
+10
+	1		// 0=no, 1=yes
+end

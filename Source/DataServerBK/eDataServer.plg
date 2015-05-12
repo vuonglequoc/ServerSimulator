@@ -1,0 +1,179 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: eDataServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Release/eDataServer.res" /d "NDEBUG" "C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\eDataServer.rc"" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP57.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/eDataServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\CSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\DSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\eDataServer.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\EDSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Eprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\giocp.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\GuildManager.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\LogProc.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\MapServerManager.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\MD5.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Query.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\RSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\ServerEngine.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Sprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\TServerInfoDisplayer.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\winutil.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\WzUdp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP57.tmp" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP58.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/eDataServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP58.tmp" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP59.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/eDataServer.pdb" /machine:I386 /out:"Release/eDataServer.exe" 
+".\Release\CSprotocol.obj"
+".\Release\DSprotocol.obj"
+".\Release\eDataServer.obj"
+".\Release\EDSprotocol.obj"
+".\Release\Eprotocol.obj"
+".\Release\giocp.obj"
+".\Release\GuildManager.obj"
+".\Release\LogProc.obj"
+".\Release\MapServerManager.obj"
+".\Release\MD5.obj"
+".\Release\Query.obj"
+".\Release\RSprotocol.obj"
+".\Release\ServerEngine.obj"
+".\Release\Sprotocol.obj"
+".\Release\StdAfx.obj"
+".\Release\TServerInfoDisplayer.obj"
+".\Release\winutil.obj"
+".\Release\WzUdp.obj"
+".\Release\eDataServer.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP59.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSprotocol.cpp
+DSprotocol.cpp
+eDataServer.cpp
+EDSprotocol.cpp
+Eprotocol.cpp
+giocp.cpp
+GuildManager.cpp
+LogProc.cpp
+MapServerManager.cpp
+MD5.cpp
+Query.cpp
+RSprotocol.cpp
+ServerEngine.cpp
+Sprotocol.cpp
+TServerInfoDisplayer.cpp
+winutil.cpp
+WzUdp.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+eDataServer.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: eDataServer - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc0a /fo"Debug/eDataServer.res" /d "_DEBUG" "C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\eDataServer.rc"" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/eDataServer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\CSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\DSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\eDataServer.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\EDSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Eprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\giocp.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\GuildManager.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\LogProc.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\MapServerManager.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\MD5.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Query.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\RSprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\ServerEngine.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\Sprotocol.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\TServerInfoDisplayer.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\winutil.cpp"
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\WzUdp.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5B.tmp" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/eDataServer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Documents and Settings\João Carlos Hermes\Desktop\Nova pasta\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5C.tmp" 
+Creating temporary file "C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/eDataServer.pdb" /debug /machine:I386 /out:"Debug/eDataServer.exe" /pdbtype:sept 
+".\Debug\CSprotocol.obj"
+".\Debug\DSprotocol.obj"
+".\Debug\eDataServer.obj"
+".\Debug\EDSprotocol.obj"
+".\Debug\Eprotocol.obj"
+".\Debug\giocp.obj"
+".\Debug\GuildManager.obj"
+".\Debug\LogProc.obj"
+".\Debug\MapServerManager.obj"
+".\Debug\MD5.obj"
+".\Debug\Query.obj"
+".\Debug\RSprotocol.obj"
+".\Debug\ServerEngine.obj"
+".\Debug\Sprotocol.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TServerInfoDisplayer.obj"
+".\Debug\winutil.obj"
+".\Debug\WzUdp.obj"
+".\Debug\eDataServer.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\JOOCAR~1\CONFIG~1\Temp\RSP5D.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSprotocol.cpp
+DSprotocol.cpp
+eDataServer.cpp
+EDSprotocol.cpp
+Eprotocol.cpp
+giocp.cpp
+GuildManager.cpp
+LogProc.cpp
+MapServerManager.cpp
+MD5.cpp
+Query.cpp
+RSprotocol.cpp
+ServerEngine.cpp
+Sprotocol.cpp
+TServerInfoDisplayer.cpp
+winutil.cpp
+WzUdp.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+eDataServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+[CashShopOption]
+UseCashShop			= 1			//Cash Shop Switch (0:Disabled 1:Enabled)
+ConnectShopServer	= 1			//Connect Cash Shop (0:Disabled 1:Enabled)
+ShopServerIP		= 192.168.56.103 	//Shop Server Ip Address
+ShopServerPort		= 55821			//Shop Server Port
+
+UseLotteryEvent		= 1
+MapMoveBoundCheck	= 0

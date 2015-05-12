@@ -1,0 +1,134 @@
+//Effect Types
+//=============================
+//-1 = No Effect
+// 0 = Increase Mana + Value
+// 1 = Increase AG + Value
+// 2 = Increase Life + Value
+// 3 = Increase SD + Value
+// 4 = Increase Drop Rate %
+// 5 = Excellent Damage %
+// 6 = Critical Damage %
+// 7 = Life Auto Recovery %
+// 8 = Exp Increase %
+// 9 = Increase Attack + Value
+//10 = Increase Defense + Value
+//11 = Mana Auto Recovery %
+//12 = Attack Speed + Value
+//13 = Disable Exp
+//14 = Enable Mobility (Warp)
+//15 = Wizardy + Value
+//16 = Increase Strenght + value
+//17 = Increase Agility + value
+//18 = Increae Vitality + value
+//19 = Increase Energy + value
+//20 = Increae Leadership + value
+//=============================
+
+//Rings & Pendants
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+0
+13	109	0	500	6	15	0	-1	//Sapphire Ring
+13	110	1	500	5	15	0	-1	//Ruby Ring
+13	111	2	500	4	15	0	-1	//Topaz Ring
+13	112	3	500	3	500	0	-1	//Amethyst Ring
+13	113	4	15	2	500	0	-1	//Ruby Necklace
+13	114	5	15	1	500	0	-1	//Emerald Necklace
+13	115	6	15	0	500	0	-1	//Sapphire Necklace
+end
+
+//Pots
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+1
+13	117	8	100	4	100	1800	115	//Little Elixir of Energy
+13	118	8	100	4	100	1800	116	//Small Elixir of Vitality
+13	119	8	100	4	100	1800	117	//Medium Elixir of Vitality
+13	120	8	100	4	100	1800	118	//Large Elixir of Vitality
+14	78	16	50	-1	-1	1800	50	//Elixir of Strenght	
+14	79	17	50	-1	-1	1800	51	//Elixir of Agility
+14	80	18	50	-1	-1	1800	52	//Elixir of Health
+14	81	19	50	-1	-1	1800	53	//Elixir of Energy
+14	82	20	50	-1	-1	1800	54	//Elixir of Leadership
+end
+
+//Seals
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+2
+13	43	8	150	-1	-1	1800	29	//Seal of Ascension
+13	44	8	150	4	150	1800	30	//Seal of Wealth
+13	45	13	100	-1	-1	1800	31	//Seal of Sustenance
+13	43	8	150	-1	-1	1800	40	//Seal of Ascension
+13	44	8	150	4	150	1800	41	//Seal of Wealth
+13	45	13	100	-1	-1	1800	42	//Seal of Sustenance
+13	59	14	1	-1	-1	1800	43	//Seal of Mobility
+13	62	8	150	7	5	1800	87	//Seal of Healing
+13	63	4	150	11	5	1800	88	//Seal of Divinity
+13	96	9	30	10	30	1800	104	//Seal of Strength
+13	116	4	150	-1	-1	1800	119	//Seal of Wealth
+end
+
+//Scrolls
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+3
+13	93	8	150	-1	-1	1800	101	//Master Seal of Ascension
+13	94	8	200	4	150	1800	102	//Master Seal of Wealth
+14	72	12	15	-1	-1	1800	44	//Scroll of Quickness
+14	73	10	60	-1	-1	1800	45	//Scroll of Defense
+14	74	9	30	-1	-1	1800	46	//Scroll of Wrath
+14	75	15	30	-1	-1	1800	47	//Scroll of Wizardry
+14	76	2	200	-1	-1	1800	48	//Scroll of Health
+14	77	0	300	-1	-1	1800	49	//Scroll of Mana
+14	97	6	20	-1	-1	1800	89	//Scroll of Battle
+14	98	5	20	-1	-1	1800	90	//Scroll of Strengthener
+14	140	7	4	2	100	1800	121	//Scroll of Healing
+end
+
+//Scrolls Specials
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+4
+13	128	6	10	-1	-1	1800	122	//Hawk Figurine
+13	129	5	10	-1	-1	1800	123	//Goat Figurine
+13	130	4	50	-1	-1	1800	124	//Oak Charm
+13	131	0	50	-1	-1	1800	125	//Maple Charm
+13	132	2	150	3	50	1800	126	//Golden Oak Charm
+13	133	0	150	1	50	1800	127	//Golden Maple Charm
+13	134	4	20	-1	-1	1800	128	//Worn Horse Shoe
+end
+
+//Hallowen Buffs
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+5
+14	46	12	10	-1	-1	1800	35	//Jack O'Lantern Blessing
+14	47	9	25	-1	-1	1800	36	//Jack O'Lantern Rage
+14	48	10	100	-1	-1	1800	37	//Jack O'Lantern Scream
+14	49	2	500	-1	-1	1800	38	//Jack O'Lantern Food
+14	50	0	500	-1	-1	1800	39	//Jack O'Lantern Drink
+end
+
+//Cherry Blossoms Buffs
+//============================================================
+//Item	Item	Effect	Effect	Effect	Effect	Buff	Buff
+//Type	Index	Type	Value	Type2	Value2	Time	Number
+//============================================================
+6
+14	85	0	700	-1	-1	1800	78	//Cherry Blossom Wine
+14	86	2	700	-1	-1	1800	79	//Cherry Blossom Rice Cake
+14	87	9	40	-1	-1	1800	80	//Cherry Blossom Flower Petal
+end

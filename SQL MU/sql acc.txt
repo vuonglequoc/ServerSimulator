@@ -1,0 +1,18 @@
+MEMB_INFO
+memb___id -> new acc	10
+memb__pwd -> new pass	10
+memb_name ->		10
+sno__numb ->		18
+post_code -> NULL		6
+addr_deta -> NULL		50
+tel_numb -> NULL		20
+phon_numb -> NULL		15
+mail_addr -> NULL		50
+fpas_ques -> NULL		50
+fpas_answ -> NULL		50
+job_code -> NULL		2
+appl_days -> NULL		datetime
+modi_days -> NULL		datetime
+out__days -> NULL		datetime
+true_days -> NULL		datetime
+ExpandedWarehouse -> NULL	smallint

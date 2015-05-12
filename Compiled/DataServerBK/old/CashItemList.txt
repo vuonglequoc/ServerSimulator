@@ -1,0 +1,22 @@
+// ItemGroup ItemId CategoryId UseType BuyType CoolTime LimitSellCount State ItemName ItemDesc
+// UseTime Amount Price SellRate
+
+13	43	0	2	1	10	1	1 "Test1" "Test2"
+1	1	100	10
+end
+
+13	44	0	1	2	1	1	1 "Test1" "Test2"
+3	1	100	10
+end
+
+13	45	0	1	2	1	1	1 "Test1" "Test2"
+1	1	100	10
+end
+
+14	53	3	2	1	10	2	2 "Test1" "Test2"
+1	2	100	100
+end
+
+14	54	3	2	1	10	1	2 "Test1" "Test2"
+1	1	100	100
+end

@@ -1,0 +1,31 @@
+				#####################################################################################################################
+				#									[ RealCoderZ MU Development © 2012 ]											#
+				#									------------------------------------											#
+				#										   ZodEA MU - RCZ Emulator													#
+				#										   -----------------------													#
+				#									Authors ( WolF & M.E.S & kristians )											#
+				#									------------------------------------											#
+				#											  Project To-Do List													#
+				#											  ------------------													#
+				#####################################################################################################################
+
+=================
+:: TO-DO LIST ::
+=================
+
+[01] 1st Quests				[Kristians]
+[02] 2nd Quests				[Kristians]
+[03] Season 5 Quests
+[04] Gens
+[05] MiniDumper				[Kristians]
+[06] Notice					[WolF]			- Done!	-> Notice.h/.cpp [OLD :: TNotice.h/.cpp]
+[07] Protection				[Kristians]
+[08] ClassDef				[WolF]			- Done!	-> CharacterInfo [OLD :: ClassDef.h/.cpp]
+[09] DuelSystem
+[10] Move-System			[WolF]
+[11] Gates					[WolF]
+[12] ChaosMachine
+[13] Personal Shop			[WolF]
+[14] Party					[WolF]
+[15] Trade					[WolF]
+[16] PKSystem

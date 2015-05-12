@@ -1,0 +1,14 @@
+[JewelOfHarmony]
+PurityHarmonyJewel		=1
+MixSmeltingStoneItem		=1
+RestoreStrengthenItem		=1
+StrengthenItem			=1
+SmeltItemBySmeltingStone	=1
+PuritySuccessRate		=100
+PurityNeedZen			=10
+SmeltingStoneSuccesRateNormal	=10
+SmeltingStoneSuccesRateExcellent=50
+SmeltingNeedZen			=0
+StrengthenSuccessRate		=100
+SmeltingItemSuccessRateNormal	=10
+SmeltingItemSuccessRateExcellent=10

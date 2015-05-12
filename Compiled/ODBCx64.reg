@@ -1,0 +1,101 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\AccountDB]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\LOGIN]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\LocalServer]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\MU2003_EVENT_DB]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\MuOnline]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\MuOnlineAdmin]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\MuOnlineJoinDB]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\PC_MUONLINE]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\PE_MUONLINE]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\MatchDB]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\Ranking]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\USELOG]
+"Driver"="C:\\WINDOWS\\system32\\SQLSRV32.dll"
+"Server"="(local)"
+"Database"="MuOnline"
+"LastUser"="Administrator"
+"Trusted_Connection"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432NodeODBC\ODBC\ODBC.INI\ODBC Data Sources]
+"AccountDB"="SQL Server"
+"LOGIN"="SQL Server"
+"LocalServer"="SQL Server"
+"MU2003_EVENT_DB"="SQL Server"
+"MuOnline"="SQL Server"
+"MuOnlineAdmin"="SQL Server"
+"MuOnlineJoinDB"="SQL Server"
+"PC_MUONLINE"="SQL Server"
+"PE_MUONLINE"="SQL Server"
+"MatchDB"="SQL Server"
+"Ranking"="SQL Server"
+"USELOG"="SQL Server"

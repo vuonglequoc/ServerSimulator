@@ -1,0 +1,115 @@
+//Destler (Boss Monday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+0
+0	17	6	0	1	1	1	1	0	255	255	255	255	255	//Dark Breaker
+0	18	6	0	1	1	1	1	0	255	255	255	255	255	//Thunder Blade
+0	20	6	0	1	1	1	1	0	255	255	255	255	255	//Knight Blade
+0	21	6	0	1	1	1	1	0	255	255	255	255	255	//Dark Reign Blade
+0	22	6	0	1	1	1	1	0	255	255	255	255	255	//Bone Blade
+0	23	6	0	1	1	1	1	0	255	255	255	255	255	//Explosion Blade
+0	31	6	0	1	1	1	1	0	255	255	255	255	255	//Rune Blade
+0	34	6	0	1	1	1	1	0	255	255	255	255	255	//Piercing Blade Glove
+end
+
+//Vermontt (Boss Tuesday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+1
+2	12	6	0	1	1	1	1	0	255	255	255	255	255	//Great Lord Scepter
+2	14	6	0	1	1	1	1	0	255	255	255	255	255	//Solay Scepter
+4	19	6	0	1	1	1	1	0	255	255	255	255	255	//Great Reign Crossbow
+4	20	6	0	1	1	1	1	0	255	255	255	255	255	//Arrow Viper Bow
+4	21	6	0	1	1	1	1	0	255	255	255	255	255	//Sylph Wind Bow
+end
+
+//Kato (Boss Wednesday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+2
+5	9	6	0	0	1	1	1	0	255	255	255	255	255	//Dragon Soul Staff
+5	11	6	0	0	1	1	1	0	255	255	255	255	255	//Staff of Kundun
+5	12	6	0	0	1	1	1	0	255	255	255	255	255	//Grand Viper Staff
+5	17	6	0	0	1	1	1	0	255	255	255	255	255	//Ancient Stick
+5	18	6	0	0	1	1	1	0	255	255	255	255	255	//Bloody Amethyst Stick
+5	19	6	0	0	1	1	1	0	255	255	255	255	255	//Storm Blitz Stick
+end
+
+//Galia (Boss Thuesday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+3
+7	21	6	0	0	1	0	1	0	255	255	255	255	255	//Great Dragon Helm
+7	22	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Soul Helm
+7	24	6	0	0	1	0	1	0	255	255	255	255	255	//Red Spirit Helm
+7	28	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Master Mask
+7	43	6	0	0	1	0	1	0	255	255	255	255	255	//Storm Blitz Helm
+7	61	6	0	0	1	0	1	0	255	255	255	255	255	//Piercing Helm
+end
+
+//Erkanner (Boss Friday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+4
+8	21	6	0	0	1	0	1	0	255	255	255	255	255	//Great Dragon Armor
+8	22	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Soul Armor
+8	23	6	0	0	1	0	1	0	255	255	255	255	255	//Hurricane Armor
+8	24	6	0	0	1	0	1	0	255	255	255	255	255	//Red Spirit Armor
+8	28	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Master Armor
+8	43	6	0	0	1	0	1	0	255	255	255	255	255	//Storm Blitz Armor
+8	61	6	0	0	1	0	1	0	255	255	255	255	255	//Piercing Armor
+end
+
+//Raymond (Boss Saturday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+5
+9	21	6	0	0	1	0	1	0	255	255	255	255	255	//Great Dragon Pants
+9	22	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Soul Pants
+9	23	6	0	0	1	0	1	0	255	255	255	255	255	//Hurricane Pants
+9	24	6	0	0	1	0	1	0	255	255	255	255	255	//Red Spirit Pants
+9	28	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Master Pants
+9	43	6	0	0	1	0	1	0	255	255	255	255	255	//Storm Blitz Pants
+9	61	6	0	0	1	0	1	0	255	255	255	255	255	//Piercing Pants
+end
+
+//Jerint (First Boss Sunday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+6
+10	21	6	0	0	1	0	1	0	255	255	255	255	255	//Great Dragon Gloves
+10	22	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Soul Gloves
+10	23	6	0	0	1	0	1	0	255	255	255	255	255	//Hurricane Gloves
+10	24	6	0	0	1	0	1	0	255	255	255	255	255	//Red Spirit Gloves
+10	28	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Master Gloves
+10	43	6	0	0	1	0	1	0	255	255	255	255	255	//Storm Blitz Gloves
+end
+
+//Gaion Kharein (Final Boss Sunday - Imperial Guardian)
+//============================================================================================================
+//Item	Item	Item	Item	Is	Is	Is	Is	Is	Socket	Socket	Socket	Socket	Socket
+//Type	Index	Level	Dur	Skill	Luck	Opt	Exe	Anc	1	2	3	4	5
+//============================================================================================================
+7
+11	21	6	0	0	1	0	1	0	255	255	255	255	255	//Great Dragon Boots
+11	22	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Soul Boots
+11	23	6	0	0	1	0	1	0	255	255	255	255	255	//Hurricane Boots
+11	24	6	0	0	1	0	1	0	255	255	255	255	255	//Red Spirit Boots
+11	28	6	0	0	1	0	1	0	255	255	255	255	255	//Dark Master Boots
+11	43	6	0	0	1	0	1	0	255	255	255	255	255	//Storm Blitz Boots
+11	61	6	0	0	1	0	1	0	255	255	255	255	255	//Piercing Boots
+end

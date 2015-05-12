@@ -1,0 +1,6 @@
+[Item380System]
+Enabled			=1
+NeedZenForMix		=10000000
+MixRateForGrade1	=50
+MixRateForGrade2	=60
+MixRateForGrade3	=60

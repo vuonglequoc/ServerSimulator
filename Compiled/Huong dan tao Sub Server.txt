@@ -1,0 +1,16 @@
+- Copy folder Data, GameServer vao thu muc Sub
+
+Buoc 1: Chinh trong D:\Mu\Data\IPList.DAT ( mac dinh may minh la D:\Mu) 
+"127.0.0.1"
+"127.0.0.1" <~ Ip server 2 ( ko co cung dc co cung ko sao)
+
+Buoc 2: Chinh trong D:\Mu\Data\MapserverInfo.DAT
+0 0 1 S127.0.0.1 55901
+1 0 1 S127.0.0.1 55903 <~ Sub 2
+
+Buoc 3: D:\Mu\Sub\Gameserver
+Doi ten gameserver.exe thanh gameserver1.exe
+Chinh trong D:\Mu\Sub\Gameserve\Connect.ini
+- ServerCode = 0 ~> ServerCode = 1
+- UDPPort = 60009 ~> UDPPort = 600011
+- GameServerPort = 55901 ~> GameServerPort = 55903

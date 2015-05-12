@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<Config>
+	<ConnectServer>
+
+		<Port>44405</Port>
+		
+		<IdleTime>60</IdleTime>
+		
+		<ServersGroup>
+			<Server Ip="192.168.56.103" Port="55901" Show="true" />
+			<Server Ip="192.168.56.103" Port="55903" Show="true" />
+		</ServersGroup>
+				
+	</ConnectServer>
+</Config>

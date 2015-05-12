@@ -1,0 +1,7 @@
+CS: ConnectServer 55901
+
+JS: JoinServer 55970
+
+DS: DataServer1 55960
+	DataServer2 55962
+	RankingServer 44455

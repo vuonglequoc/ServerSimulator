@@ -1,0 +1,18 @@
+// Acc
+AccountCharacter
+Character
+MEMB_INFO // Change pass
+MEMB_STAT // Online/Offline
+warehouse // Hom do
+
+// Character
+AccountCharacter
+Character
+GenSystem
+Guild
+GuildMember
+NewQuestSystem
+OptionData
+T_CGuild
+T_FriendMain
+T_MasterLevelSystem

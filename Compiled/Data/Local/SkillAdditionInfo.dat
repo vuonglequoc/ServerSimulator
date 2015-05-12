@@ -1,0 +1,28 @@
+//Infinity Arrow Options
+//======================
+[SkillInfo]
+InfinityArrowSkillTime 			=2200
+InfinityArrowUseLevel 			=220
+InfinityArraowMPConsumptionPlus0 	=10
+InfinityArraowMPConsumptionPlus1 	=15
+InfinityArraowMPConsumptionPlus2 	=20
+
+//Fire Scream Options
+//===================
+FireScreamSkill				=1
+FireScreamExplosionAttackDistance 	=2
+FireScreamExplosionDamage 		=3000
+FireScreamExplosionRate			=3000
+FireScreamMaxAttackCountSameSerial 	=3
+FireScreamSerialInitCount 		=100
+CheckFireScreamSerial 			=1
+
+//Elf Soldier Buff
+ElfSoldierBuff				=1
+ElfSoldierBuffTime			=220
+ElfSoldierBuffMinLvl			=1
+ElfSoldierBuffMaxLvl			=150
+ElfSoldierBuffDefLevelDivision		=5
+ElfSoldierBuffDefLevelAdd		=50
+ElfSoldierBuffDmgLevelDivision		=3
+ElfSoldierBuffDmgLevelAdd		=45

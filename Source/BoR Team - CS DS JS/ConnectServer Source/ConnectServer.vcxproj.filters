@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Global">
+      <UniqueIdentifier>{3fa523b2-33fb-4b33-b485-cc19e40565b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{aa3cc0c3-9f2a-4f3e-b0ad-fb4e337f10bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{31dcf608-9e71-4a58-aead-ad4ec61b974f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{817025a7-3c73-4a03-b210-f086e9873e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{2a82faa4-6d21-4b0d-8b98-b08cfb5467a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\GEntryPoint.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GProtocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TServerManager.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TServersConfig.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\TTimerManger.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\GInclude.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TServerManager.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TServersConfig.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\TTimerManger.h">
+      <Filter>User</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sources\Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\BoR_Icon.ico" />
+  </ItemGroup>
+</Project>

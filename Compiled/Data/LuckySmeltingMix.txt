@@ -1,0 +1,68 @@
+//Lucky Ticket Green
+//=====================================================================
+//Item	Item	Ticket	Dark	Dark	Fairy	Magic	Dark	Summo	Rage
+//Type	Index	Type	Wizard	Knight	Elf	Glad	Lord	ner	Fighter
+//=====================================================================
+0
+7	62	0	0	1	0	0	1	0	1	//Scale Helm
+7	63	0	0	0	1	0	0	0	0	//Silk Helm
+7	64	0	1	0	0	0	0	0	0	//Sphinx Helm
+7	65	0	0	0	0	0	0	1	0	//Violent Wind Helm
+8	62	1	0	1	0	0	1	0	1	//Scale Armor
+8	63	1	0	0	1	0	0	0	0	//Silk Armor
+8	64	1	1	0	0	1	0	0	0	//Sphinx Armor
+8	65	1	0	0	0	0	0	1	0	//Violent Wind Armor
+9	62	2	0	1	0	0	1	0	1	//Scale Pants
+9	63	2	0	0	1	0	0	0	0	//Silk Pants
+9	64	2	1	0	0	1	0	0	0	//Sphinx Pants
+9	65	2	0	0	0	0	0	1	0	//Violent Wind Pants
+10	62	3	0	1	0	0	1	0	0	//Scale Gloves
+10	63	3	0	0	1	0	0	0	0	//Silk Gloves
+10	64	3	1	0	0	1	0	0	0	//Sphinx Gloves
+10	65	3	0	0	0	0	0	1	0	//Violent Wind Gloves
+11	62	4	0	1	0	0	1	0	1	//Scale Boots
+11	63	4	0	0	1	0	0	0	0	//Silk Boots
+11	64	4	1	0	0	1	0	0	0	//Sphinx Boots
+11	65	4	0	0	0	0	0	1	0	//Violent Wind Boots
+end
+
+//Lucky Ticket Red
+//=====================================================================
+//Item	Item	Ticket	Dark	Dark	Fairy	Magic	Dark	Summo	Rage
+//Type	Index	Type	Wizard	Knight	Elf	Glad	Lord	ner	Fighter
+//=====================================================================
+1
+7	66	0	0	0	0	0	1	0	0	//Adamantine Helm
+7	67	0	1	0	0	0	0	0	0	//Dragon Helm
+7	67	0	0	0	1	0	0	0	0	//Guardian Helm
+7	68	0	0	1	0	0	0	0	0	//Legendary Wind Helm
+7	70	0	0	0	0	0	0	1	0	//Red Wing Helm
+7	72	0	0	0	0	0	0	0	1	//Storm Hard Helm Helm
+8	66	1	0	0	0	0	1	0	0	//Adamantine Armor
+8	67	1	1	0	0	0	0	0	0	//Dragon Armor
+8	68	1	0	0	1	0	0	0	0	//Guardian Armor
+8	69	1	0	1	0	0	0	0	0	//Legendary Armor
+8	70	1	0	0	0	0	0	1	0	//Red Wing Armor
+8	71	1	0	0	0	1	0	0	0	//Storm Crow Armor
+8	72	1	0	0	0	0	0	0	1	//Storm Hard Armor
+9	66	2	0	0	0	0	1	0	0	//Adamantine Pants
+9	67	2	1	0	0	0	0	0	0	//Dragon Pants
+9	68	2	0	0	1	0	0	0	0	//Guardian Pants
+9	69	2	0	1	0	0	0	0	0	//Legendary Pants
+9	70	2	0	0	0	0	0	1	0	//Red Wing Pants
+9	71	2	0	0	0	1	0	0	0	//Storm Crow Pants
+9	72	2	0	0	0	0	0	0	1	//Storm Hard Pants
+10	66	3	0	0	0	0	1	0	0	//Adamantine Gloves
+10	67	3	1	0	0	0	0	0	0	//Dragon Gloves
+10	68	3	0	0	1	0	0	0	0	//Guardian Gloves
+10	69	3	0	1	0	0	0	0	0	//Legendary Gloves
+10	70	3	0	0	0	0	0	1	0	//Red Wing Gloves
+10	71	3	0	0	0	1	0	0	0	//Storm Crow Gloves
+11	66	4	0	0	0	0	1	0	0	//Adamantine Boots
+11	67	4	1	0	0	0	0	0	0	//Dragon Boots
+11	68	4	0	0	1	0	0	0	0	//Guardian Boots
+11	69	4	0	1	0	0	0	0	0	//Legendary Boots
+11	70	4	0	0	0	0	0	1	0	//Red Wing Boots
+11	71	4	0	0	0	1	0	0	0	//Storm Crow Boots
+11	72	4	0	0	0	0	0	0	1	//Storm Hard Boots
+end
