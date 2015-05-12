@@ -20,7 +20,9 @@ Mu Server BK says thanks to following people. If some is missing please contact 
     * [MUBK] lordoftech
 
 Contact
-    * Gmail lelordoftech@gmail.com [ https://github.com/lelordoftech/mu-bk-server-sourcecode/ ]
+    * Gmail lelordoftech@gmail.com
+	[ https://github.com/lelordoftech/mu-bk-server-sourcecode/ ]
+	[ https://subversion.assembla.com/svn/mu-bk-source-code/ ]
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
