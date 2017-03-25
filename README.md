@@ -33,17 +33,24 @@ Please download Github
 
 Step 1: Download Latest Source Version.
 
-Step 2: Compile ConnectServer, DataServer, eDataServer & GameServer with Visual Studio 2010 Ultimate.
+Step 2: Compile with Visual Studio 2010 Ultimate.
+
+    * ConnectServer
+    * DataServer
+    * eDataServer
+    * GameServer
 
 Step 3: Put Compiled exes in Compiled folder:
-C:/MuServerBK/Source/BoR Team - CS DS JS/BoR/Release/ConnectServer.exe > C://MuServerBK/Compiled/ConnectServer
-C:/MuServerBK/Source/DataServer/Release/DataServer.exe                 > C://MuServerBK/Compiled/DataServer
-C:/MuServerBK/Source/DataServerBK/Release/eDataServer.exe              > C://MuServerBK/Compiled/DataServerBK
-C:/MuServerBK/Source/GameServer/Release/GameServer.exe                 > C://MuServerBK/Compiled/GameServer
+
+    * C:/MuServerBK/Source/BoR Team - CS DS JS/BoR/Release/ConnectServer.exe > C://MuServerBK/Compiled/ConnectServer
+    * C:/MuServerBK/Source/DataServer/Release/DataServer.exe                 > C://MuServerBK/Compiled/DataServer
+    * C:/MuServerBK/Source/DataServerBK/Release/eDataServer.exe              > C://MuServerBK/Compiled/DataServerBK
+    * C:/MuServerBK/Source/GameServer/Release/GameServer.exe                 > C://MuServerBK/Compiled/GameServer
 
 Step 4: Change information in Server
-Open C:/MuServerBK/Compiled/DataServer/DataServer.conf   - Change SQL Password
-Open C:/MuServerBK/Compiled/DataServerEx/eDataServer.ini - Change SQL Password
-Open C:/MuServerBK/Compiled/Data/Local/MapServerInfo.dat - Change IP
+
+    * Open C:/MuServerBK/Compiled/DataServer/DataServer.conf   - Change SQL Password
+    * Open C:/MuServerBK/Compiled/DataServerEx/eDataServer.ini - Change SQL Password
+    * Open C:/MuServerBK/Compiled/Data/Local/MapServerInfo.dat - Change IP
 
 Done!
