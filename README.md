@@ -1,7 +1,7 @@
 # mu-bk-server-sourcecode
 MuServer
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+---
 
 The MuServerBK project is developed from the MuServerEx project.
 
@@ -20,11 +20,10 @@ Mu Server BK says thanks to following people. If some is missing please contact 
     * [MUBK] lordoftech
 
 Contact
-    * Gmail lelordoftech@gmail.com
-	[ https://github.com/lelordoftech/mu-bk-server-sourcecode/ ]
-	[ https://subversion.assembla.com/svn/mu-bk-source-code/ ]
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    * Gmail lelordoftech@gmail.com
+
+---
 
 Introduction
 Here you will learn how to setup MuServerBK.
@@ -43,7 +42,6 @@ C:/MuServerBK/Source/DataServerBK/Release/eDataServer.exe              > C://MuS
 C:/MuServerBK/Source/GameServer/Release/GameServer.exe                 > C://MuServerBK/Compiled/GameServer
 
 Step 4: Change information in Server
-
 Open C:/MuServerBK/Compiled/DataServer/DataServer.conf   - Change SQL Password
 Open C:/MuServerBK/Compiled/DataServerEx/eDataServer.ini - Change SQL Password
 Open C:/MuServerBK/Compiled/Data/Local/MapServerInfo.dat - Change IP
