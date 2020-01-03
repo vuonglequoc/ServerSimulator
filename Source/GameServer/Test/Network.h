@@ -7,8 +7,8 @@
 #ifndef _NETWORK_H_
 #define _NETWORK_H_
 
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/Defines.H"
+#include "StdAfx.H"
+#include "Defines.H"
 
 
 struct _PER_IO_CONTEXT

@@ -4,10 +4,10 @@
 // # Author:	WolF & M.E.S & Kristians
 // # Hint:		This Script For Character Info Class.
 //----------------------------------------------------------------------------------
-#include "../Header Files/Stdafx.H"
+#include "Stdafx.H"
 #include "CharacterInfo.H"
-#include "../Header Files/Structures.H"
-#include "../Header Files/LogProc.H"
+#include "Structures.H"
+#include "LogProc.H"
 
 
 CCharacterInfo gCharInfo;

@@ -7,8 +7,8 @@
 #ifndef CHARACTER_INFO_H
 #define CHARACTER_INFO_H
 
-#include "../Header Files/zzzitem.H"
-#include "../Header Files/Defines.H"
+#include "zzzitem.H"
+#include "Defines.H"
 
 
 enum CLASS_TYPE

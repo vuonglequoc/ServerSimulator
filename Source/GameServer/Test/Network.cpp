@@ -4,10 +4,10 @@
 // # Author:	WolF & M.E.S & Kristians
 // # Hint:		This Script For Network Class.
 //----------------------------------------------------------------------------------
-#include "../Header Files/StdAfx.H"
+#include "StdAfx.H"
 #include "Network.H"
-#include "../Header Files/Spe.H"
-#include "../Header Files/Functions.H"
+#include "Spe.H"
+#include "Functions.H"
 
 
 CNetwork gNet;

@@ -1,4 +1,4 @@
-#include "../Header Files/StdAfx.h"
+#include "StdAfx.h"
 #include "Scripting.h"
 
 #if (SCRIPT_ENABLED == 1)
