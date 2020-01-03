@@ -60,9 +60,14 @@ BOOL CQuery::Connect(TCHAR * lpszDNS, TCHAR * lpszUser, TCHAR * lpszPassword)
 			SqlState, &NativeError, SQLMsgError, sizeof(SQLMsgError), &MsgLen) != SQL_NO_DATA )
 		{
 			if ( LogAddC != NULL )
-				LogAddC(3, "SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+			{
+				LogAddC(3, "[VuongLQ] SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+				break;
+			}
 			else
+			{
 				MsgBox("SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+			}
 		}
 
 		return FALSE;
@@ -218,9 +223,14 @@ void CQuery::Diagnosis()
 		SqlState, &NativeError, SQLMsgError, sizeof(SQLMsgError), &MsgLen) != SQL_NO_DATA )
 	{
 		if ( LogAddC != NULL )
-			LogAddC(3, "SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+		{
+			LogAddC(3, "[VuongLQ] SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+			break;
+		}
 		else
+		{
 			MsgBox("SQLSTATE:%s, Diagnosis:%s", SqlState, SQLMsgError);
+		}
 
 		sRecord++;
 	}
