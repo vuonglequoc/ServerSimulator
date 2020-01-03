@@ -15,141 +15,141 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CSprotocol.cpp">
+    <ClCompile Include="src\CSprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DSprotocol.cpp">
+    <ClCompile Include="src\DSprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="eDataServer.cpp">
+    <ClCompile Include="src\eDataServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EDSprotocol.cpp">
+    <ClCompile Include="src\EDSprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Eprotocol.cpp">
+    <ClCompile Include="src\Eprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="giocp.cpp">
+    <ClCompile Include="src\giocp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GuildManager.cpp">
+    <ClCompile Include="src\GuildManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LogProc.cpp">
+    <ClCompile Include="src\LogProc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MapServerManager.cpp">
+    <ClCompile Include="src\MapServerManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MD5.cpp">
+    <ClCompile Include="src\MD5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Query.cpp">
+    <ClCompile Include="src\Query.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RSprotocol.cpp">
+    <ClCompile Include="src\RSprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ServerEngine.cpp">
+    <ClCompile Include="src\ServerEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sprotocol.cpp">
+    <ClCompile Include="src\Sprotocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StdAfx.cpp">
+    <ClCompile Include="src\StdAfx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TServerInfoDisplayer.cpp">
+    <ClCompile Include="src\TServerInfoDisplayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="winutil.cpp">
+    <ClCompile Include="src\winutil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WzUdp.cpp">
+    <ClCompile Include="src\WzUdp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="eDataServer.rc">
+    <ResourceCompile Include="Resrc\eDataServer.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CSprotocol.h">
+    <ClInclude Include="include\CSprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DSprotocol.h">
+    <ClInclude Include="include\DSprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="eDataServer.h">
+    <ClInclude Include="include\eDataServer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EDSprotocol.h">
+    <ClInclude Include="include\EDSprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Eprotocol.h">
+    <ClInclude Include="include\Eprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="giocp.h">
+    <ClInclude Include="include\giocp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GuildManager.h">
+    <ClInclude Include="include\GuildManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="logproc.h">
+    <ClInclude Include="include\logproc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MapServerManager.h">
+    <ClInclude Include="include\MapServerManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MD5.h">
+    <ClInclude Include="include\MD5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MD5_KEYVAL.H">
+    <ClInclude Include="include\MD5_KEYVAL.H">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="prodef.h">
+    <ClInclude Include="include\prodef.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Query.h">
+    <ClInclude Include="include\Query.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ReadScript.h">
+    <ClInclude Include="include\ReadScript.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
+    <ClInclude Include="include\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RSprotocol.h">
+    <ClInclude Include="include\RSprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ServerEngine.h">
+    <ClInclude Include="include\ServerEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sprotocol.h">
+    <ClInclude Include="include\Sprotocol.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StdAfx.h">
+    <ClInclude Include="include\StdAfx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TServerInfoDisplayer.h">
+    <ClInclude Include="include\TServerInfoDisplayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="winutil.h">
+    <ClInclude Include="include\winutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WzUdp.h">
+    <ClInclude Include="include\WzUdp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="eDataServer.ico">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="small.ico">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="ReadMe.txt" />
+    <CustomBuild Include="Resrc\eDataServer.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resrc\small.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
