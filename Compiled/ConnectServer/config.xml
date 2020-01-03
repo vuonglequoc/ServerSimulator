@@ -1,16 +1,32 @@
 <?xml version="1.0"?>
 
 <Config>
-	<ConnectServer>
+  <ConnectServer>
+    <Port>44405</Port>
+    <IdleTime>60</IdleTime>
+    <ServersGroup>
+      <Server Ip="192.168.1.5" Port="55901" Show="true" />
+      <Server Ip="192.168.1.5" Port="55902" Show="true" />
+    </ServersGroup>
+    <ServersGroup>
+      <Server Ip="192.168.1.5" Port="55901" Show="true" />
+      <Server Ip="192.168.1.5" Port="55902" Show="true" />
+    </ServersGroup>
+    <ServersGroup>
+      <Server Ip="192.168.1.5" Port="55901" Show="true" />
+      <Server Ip="192.168.1.5" Port="55902" Show="true" />
+    </ServersGroup>
+  </ConnectServer>
 
-		<Port>44405</Port>
-		
-		<IdleTime>60</IdleTime>
-		
-		<ServersGroup>
-			<Server Ip="192.168.56.103" Port="55901" Show="true" />
-			<Server Ip="192.168.56.103" Port="55903" Show="true" />
-		</ServersGroup>
-				
-	</ConnectServer>
+  <DataBase>
+    <Host>(LocalDB)\MU</Host>
+    <User>sa</User>
+    <Pass>sa</Pass>
+    <DB>MuOnline</DB>
+  </DataBase>
+
+  <JoinServer>
+    <Port>55970</Port>
+    <MD5>false</MD5>
+  </JoinServer>
 </Config>

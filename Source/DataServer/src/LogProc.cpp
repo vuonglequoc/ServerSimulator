@@ -93,7 +93,7 @@ void LogClass::PaintLog()
 		// ----
 		TextOut(m_hDC, m_xPos, m_yPos, lpInfo->Text, lpInfo->Len);
 		// ----
-		m_yPos		-= m_LogFont.Height;
+		m_yPos		-= m_LogFont.Height; // Write to above current log line
 	}
 	// ----
 	ReleaseDC(ghWnd, m_hDC);
@@ -120,9 +120,11 @@ void LogClass::LogTextAdd(COLORREF color, char * text, int len)
 // -------------------------------------------------------------------------------------------------------------------------------------------------------
 void LogClass::LogAddStr(COLORREF colorText, LPCCH pText)
 {
+	static int count = 0;
 	GetCurrentDate(&m_SysTime);
 	// -----
-	m_iTextLength = sprintf(m_LogBuff, "[%02d:%02d:%02d]  %s\0", m_SysTime.wHour, m_SysTime.wMinute, m_SysTime.wSecond, pText);
+	m_iTextLength = sprintf(m_LogBuff, "[%04d] [%02d:%02d:%02d]  %s\0", count, m_SysTime.wHour, m_SysTime.wMinute, m_SysTime.wSecond, pText);
+	count++;
 	// -----
 	LogTextAdd(colorText, m_LogBuff, m_iTextLength);
 	// -----

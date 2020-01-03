@@ -318,9 +318,15 @@ LRESULT CALLBACK JSDisconnect(HWND hDlg, UINT message, WPARAM wParam, LPARAM lPa
 				CQuery g_MuOnlineDB;
 				//EndDialog(hDlg, LOWORD(wParam));
 				//IDC_IDJSDISCONNECT.GetWindowText(s);
-				
-				char szAccountID[] = "mesosa";
-				
+				char szAccountID[20];
+
+				LPTSTR szText = new TCHAR[20];
+				GetDlgItemText(hDlg, IDC_IDJSDISCONNECT, szText, 20);
+				if (sizeof(szText) != 0)
+				{
+					memcpy(szAccountID, szText, sizeof(szText));
+				}
+
 				if ( g_MuOnlineDB.Connect(g_MuOnlineDNS, g_UserID, g_Password) == TRUE )
 				{
 					//tagUSER_DATA * lpUser = & m_UserObj[nIndex];

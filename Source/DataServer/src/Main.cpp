@@ -37,8 +37,10 @@ void MainClass::SetDefault()
 {
 	this->m_PosX			= 180;
 	this->m_PosY			= 30;
-	this->m_Width			= 1000;
-	this->m_Height			= 650;
+	//this->m_Width			= 1000;
+	this->m_Width			= 700;
+	//this->m_Height			= 650;
+	this->m_Height			= 500;
 	this->m_bWorkerDelay	= 500;
 	this->m_ShowWindow		= SW_NORMAL;
 	this->m_bSoftWork		= false;
@@ -83,7 +85,7 @@ bool MainClass::Initialize( HINSTANCE hInstance, int nCmdShow )
 	ShowWindow(m_hWnd, nCmdShow);
 	SendMessage(m_hWnd, WM_TIMER, WM_LOG_PAINT, NULL);
 
-	CLog.Info("DataServer v%s Successfully Initialized.",SOFT_VER);
+	CLog.Info("DataServer v%s Successfully Initialized.", SOFT_VER);
 
 	return bReturn;
 }
