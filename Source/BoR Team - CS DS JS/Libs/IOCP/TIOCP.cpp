@@ -273,6 +273,7 @@ bool IOCP::RecvDataParse(_PER_IO_CONTEXT * lpIOContext, int uIndex)
 			// ----
 			break;
 		}
+        
 		if(size <= 0)
 		{
 			OnError("[%s][RecvDataParse] :: (RecvDataParse)  size %d", m_Name, size);

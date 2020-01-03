@@ -1,4 +1,5 @@
-CS: ConnectServer 55901
+CS: ConnectServer 44450
+GS: 55901
 
 JS: JoinServer 55970
 

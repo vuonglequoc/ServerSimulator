@@ -34,7 +34,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Log", "..\Libs\Log\Log.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WzaTool", "..\Libs\WzaTool\WzaTool.vcxproj", "{9F3EF516-0756-4EE1-AC5D-2B9F0210E982}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataServer", "..\DataServer Source\v-JoinServer.vcxproj", "{4A065D22-71C7-417F-836B-F28C482081B6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataServer", "..\DataServer Source\DataServer.vcxproj", "{4A065D22-71C7-417F-836B-F28C482081B6}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JoinServer", "..\JoinServer Source\JoinServer.vcxproj", "{8E0E730B-FA3B-470A-B1BE-DD637C1CE760}"
 EndProject
