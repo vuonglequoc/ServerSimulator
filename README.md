@@ -1,7 +1,7 @@
 # mu-bk-server-sourcecode
 MuServer
 
----
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 The MuServerBK project is developed from the MuServerEx project.
 
@@ -20,10 +20,10 @@ Mu Server BK says thanks to following people. If some is missing please contact 
     * [MUBK] lordoftech
 
 Contact
-
     * Gmail lelordoftech@gmail.com
+	[ https://github.com/vuonglequoc/mu-bk-server-sourcecode/ ]
 
----
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Introduction
 Here you will learn how to setup MuServerBK.
