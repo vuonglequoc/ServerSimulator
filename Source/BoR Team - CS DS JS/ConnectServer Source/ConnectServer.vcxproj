@@ -48,6 +48,7 @@
     <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\PROJECTS\MU\Source_Code\GIT\mu-bk-source-code\Source\BoR Team - CS DS JS\ConnectServer Source\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -86,24 +87,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\GEntryPoint.cpp" />
-    <ClCompile Include="Sources\GProtocol.cpp" />
-    <ClCompile Include="Sources\Main.cpp" />
-    <ClCompile Include="Sources\TServerManager.cpp" />
-    <ClCompile Include="Sources\TServersConfig.cpp" />
-    <ClCompile Include="Sources\TTimerManger.cpp" />
+    <ClCompile Include="src\GEntryPoint.cpp" />
+    <ClCompile Include="src\GProtocol.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\TServerManager.cpp" />
+    <ClCompile Include="src\TServersConfig.cpp" />
+    <ClCompile Include="src\TTimerManger.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sources\GInclude.h" />
-    <ClInclude Include="Sources\GProtocol.h" />
-    <ClInclude Include="Sources\Main.h" />
-    <ClInclude Include="Sources\resource.h" />
-    <ClInclude Include="Sources\TServerManager.h" />
-    <ClInclude Include="Sources\TServersConfig.h" />
-    <ClInclude Include="Sources\TTimerManger.h" />
+    <ClInclude Include="include\GInclude.h" />
+    <ClInclude Include="include\GProtocol.h" />
+    <ClInclude Include="include\Main.h" />
+    <ClInclude Include="include\resource.h" />
+    <ClInclude Include="include\TServerManager.h" />
+    <ClInclude Include="include\TServersConfig.h" />
+    <ClInclude Include="include\TTimerManger.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Sources\Resource.rc" />
+    <ResourceCompile Include="src\Resource.rc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Resource\BoR_Icon.ico" />

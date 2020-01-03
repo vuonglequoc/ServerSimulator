@@ -18,54 +18,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\GEntryPoint.cpp">
+    <ClCompile Include="src\GEntryPoint.cpp">
       <Filter>Global</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\GProtocol.cpp">
+    <ClCompile Include="src\GProtocol.cpp">
       <Filter>Protocol</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\Main.cpp">
+    <ClCompile Include="src\Main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\TServerManager.cpp">
+    <ClCompile Include="src\TServerManager.cpp">
       <Filter>User</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\TServersConfig.cpp">
+    <ClCompile Include="src\TServersConfig.cpp">
       <Filter>User</Filter>
     </ClCompile>
-    <ClCompile Include="Sources\TTimerManger.cpp">
+    <ClCompile Include="src\TTimerManger.cpp">
       <Filter>User</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sources\GInclude.h">
+    <ClInclude Include="include\GInclude.h">
       <Filter>Global</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\GProtocol.h">
+    <ClInclude Include="include\GProtocol.h">
       <Filter>Protocol</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\Main.h">
+    <ClInclude Include="include\Main.h">
       <Filter>Main</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\resource.h">
+    <ClInclude Include="include\resource.h">
       <Filter>Resource</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\TServerManager.h">
+    <ClInclude Include="include\TServerManager.h">
       <Filter>User</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\TServersConfig.h">
+    <ClInclude Include="include\TServersConfig.h">
       <Filter>User</Filter>
     </ClInclude>
-    <ClInclude Include="Sources\TTimerManger.h">
+    <ClInclude Include="include\TTimerManger.h">
       <Filter>User</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Sources\Resource.rc">
-      <Filter>Resource</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Resource\BoR_Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\Resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
