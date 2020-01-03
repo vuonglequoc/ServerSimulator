@@ -1,5 +1,5 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/LogProc.H"
+#include "StdAfx.H"
+#include "LogProc.H"
 
 
 LogClass	CLog;

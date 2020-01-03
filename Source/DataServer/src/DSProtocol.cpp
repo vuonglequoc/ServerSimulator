@@ -1,6 +1,6 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/LogProc.H"
-#include "../Header Files/Database.H"
+#include "StdAfx.H"
+#include "LogProc.H"
+#include "Database.H"
 
 
 void DSProtocolCore(DServerManager * thisManager, int aIndex, BYTE HeadCode, LPBYTE aRecv, int iSize)

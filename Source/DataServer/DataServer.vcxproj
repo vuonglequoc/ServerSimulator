@@ -42,6 +42,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\PROJECTS\MU\Source_Code\GIT\mu-bk-source-code\Source\DataServer\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -76,29 +77,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Header Files\Colors.h" />
-    <ClInclude Include="Header Files\Configs.h" />
-    <ClInclude Include="Header Files\Database.h" />
-    <ClInclude Include="Header Files\DataProtocol.h" />
-    <ClInclude Include="Header Files\DataSrvManager.h" />
-    <ClInclude Include="Header Files\Defines.h" />
-    <ClInclude Include="Header Files\DSProtocol.h" />
-    <ClInclude Include="Header Files\Functions.h" />
-    <ClInclude Include="Header Files\GPackets.h" />
-    <ClInclude Include="Header Files\IOCP.h" />
-    <ClInclude Include="Header Files\JoinProtocol.h" />
-    <ClInclude Include="Header Files\JoinSrvManager.h" />
-    <ClInclude Include="Header Files\JSProtocol.h" />
-    <ClInclude Include="Header Files\LogProc.h" />
-    <ClInclude Include="Header Files\Main.h" />
-    <ClInclude Include="Header Files\MD5.h" />
-    <ClInclude Include="Header Files\MD5_KEYVAL.H" />
-    <ClInclude Include="Header Files\ReadFileManager.h" />
-    <ClInclude Include="Header Files\Resource.h" />
+    <ClInclude Include="include\Colors.h" />
+    <ClInclude Include="include\Configs.h" />
+    <ClInclude Include="include\Database.h" />
+    <ClInclude Include="include\DataProtocol.h" />
+    <ClInclude Include="include\DataSrvManager.h" />
+    <ClInclude Include="include\Defines.h" />
+    <ClInclude Include="include\DSProtocol.h" />
+    <ClInclude Include="include\Functions.h" />
+    <ClInclude Include="include\GPackets.h" />
+    <ClInclude Include="include\IOCP.h" />
+    <ClInclude Include="include\LogProc.h" />
+    <ClInclude Include="include\Main.h" />
+    <ClInclude Include="include\ReadFileManager.h" />
+    <ClInclude Include="include\Resource.h" />
     <ClInclude Include="Resource Files\resource.h" />
-    <ClInclude Include="Header Files\StdAfx.h" />
-    <ClInclude Include="Header Files\Structure.h" />
-    <ClInclude Include="Header Files\TSync.h" />
+    <ClInclude Include="include\StdAfx.h" />
+    <ClInclude Include="include\Structure.h" />
+    <ClInclude Include="include\TSync.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource Files\DataServer.rc" />
@@ -107,19 +103,16 @@
     <Image Include="Resource Files\SoftIcon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source Files\Configs.cpp" />
-    <ClCompile Include="Source Files\Database.cpp" />
-    <ClCompile Include="Source Files\DataSrvManager.cpp" />
-    <ClCompile Include="Source Files\DSProtocol.cpp" />
-    <ClCompile Include="Source Files\Functions.cpp" />
-    <ClCompile Include="Source Files\IOCP.cpp" />
-    <ClCompile Include="Source Files\JoinSrvManager.cpp" />
-    <ClCompile Include="Source Files\JSProtocol.cpp" />
-    <ClCompile Include="Source Files\LogProc.cpp" />
-    <ClCompile Include="Source Files\Main.cpp" />
-    <ClCompile Include="Source Files\MD5.cpp" />
-    <ClCompile Include="Source Files\ReadFileManager.cpp" />
-    <ClCompile Include="Source Files\StdAfx.cpp" />
+    <ClCompile Include="src\Configs.cpp" />
+    <ClCompile Include="src\Database.cpp" />
+    <ClCompile Include="src\DataSrvManager.cpp" />
+    <ClCompile Include="src\DSProtocol.cpp" />
+    <ClCompile Include="src\Functions.cpp" />
+    <ClCompile Include="src\IOCP.cpp" />
+    <ClCompile Include="src\LogProc.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\ReadFileManager.cpp" />
+    <ClCompile Include="src\StdAfx.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DataServer.conf" />

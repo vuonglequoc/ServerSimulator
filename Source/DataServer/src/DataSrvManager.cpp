@@ -1,4 +1,4 @@
-#include "../Header Files/StdAfx.H"
+#include "StdAfx.H"
 
 
 DServerManager DS_SrvManager[];

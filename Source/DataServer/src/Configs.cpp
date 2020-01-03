@@ -1,8 +1,8 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/Configs.H"
-#include "../Header Files/Main.H"
-#include "../Header Files/LogProc.H"
-#include "../Header Files/ReadFileManager.H"
+#include "StdAfx.H"
+#include "Configs.H"
+#include "Main.H"
+#include "LogProc.H"
+#include "ReadFileManager.H"
 
 MainConfig MCfg;
 

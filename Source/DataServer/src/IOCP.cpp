@@ -1,7 +1,7 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/IOCP.H"
-#include "../Header Files/Main.H"
-#include "../Header Files/LogProc.H"
+#include "StdAfx.H"
+#include "IOCP.H"
+#include "Main.H"
+#include "LogProc.H"
 
 
 IOCP::IOCP()
@@ -49,16 +49,6 @@ void IOCP::StartServer(UINT SrvType)
 {
 	switch (SrvType)
 	{
-		case ST_JOIN_SERVER:
-		{
-			JSrvManager.SetPort(gMainApp.MSTR.JoinSrv_Port);
-			// -----
-			JSrvManager.SetName("JoinServer");
-			// -----
-			JSrvManager.StartNetwork(2);
-			// -----
-		} break;
-		// -----
 		case ST_DATA_SERVER:
 		{
 			char szTemp[1024] = {0};

@@ -1,6 +1,6 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/Database.H"
-#include "../Header Files/Main.H"
+#include "StdAfx.H"
+#include "Database.H"
+#include "Main.H"
 
 
 CDataBase gDataBase;

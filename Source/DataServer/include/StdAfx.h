@@ -52,14 +52,11 @@ using namespace std;
 #include "Defines.H"
 #include "Colors.H"
 #include "GPackets.H"
-#include "JoinProtocol.H"
 #include "Structure.H"
 #include "TSync.H"
 #include "IOCP.H"
 #include "Functions.H"
-#include "JoinSrvManager.H"
 #include "DataSrvManager.H"
-#include "JSProtocol.H"
 #include "DSProtocol.H"
 // -----
 #pragma comment(lib, "ws2_32.lib")

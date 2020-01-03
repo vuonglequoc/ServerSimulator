@@ -1,6 +1,6 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/ReadFileManager.H"
-#include "../Header Files/LogProc.H"
+#include "StdAfx.H"
+#include "ReadFileManager.H"
+#include "LogProc.H"
 
 CRFileManager RFile;
 

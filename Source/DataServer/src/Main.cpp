@@ -1,10 +1,10 @@
-#include "../Header Files/StdAfx.H"
-#include "../Header Files/Main.H"
-#include "../Header Files/Database.H"
-#include "../Header Files/LogProc.H"
-#include "../Header Files/Configs.H"
-#include "../Header Files/ReadFileManager.H"
-#include "../Header Files/Resource.H"
+#include "StdAfx.H"
+#include "Main.H"
+#include "Database.H"
+#include "LogProc.H"
+#include "Configs.H"
+#include "ReadFileManager.H"
+#include "Resource.H"
 
 // Global Variables:
 MainClass gMainApp;
@@ -133,7 +133,7 @@ void MainClass::Worker()
 {
 	while (true)
 	{
-		sprintf(m_Title, "DataServer Emulator v%s :: [GameServer Connected: %d / Players Connected: %d]", SOFT_VER, JSrvManager.m_SrvConnectedCount,JSrvManager.m_UserConnectedCount);
+		sprintf(m_Title, "DataServer Emulator v%s", SOFT_VER);
 		
 		CLog.RunWindow();
 		SetWindowText(m_hWnd, m_Title);
